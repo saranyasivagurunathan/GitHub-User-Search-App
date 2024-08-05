@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GitHub User Search</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>GitHub User Search App</h1>
+            <div class="input">
+                <input type="text" id="text" placeholder="Enter GitHub username" class="styled-input"/>
+            </div>
+            <div class="button">
+                <button class="styled-button" onclick="git()">Search User</button>
+            </div>
+        </div>
+        <div id="result" class="box"></div>
+        <div id="repo-container" class="box">
+            <div id="repo-list"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
